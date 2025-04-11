@@ -1,26 +1,19 @@
-import { useState } from 'react'
-import "./CommonResources/js/custom.js";
-import "../src/CommonResources/js/bootstrap.js";
-import "../src/CommonResources/css/bootstrap.css";
-import "../src/CommonResources/css/styles.css";
-import "./CommonResources/js/jquery-3.7.1.js";
-import "../src/CommonResources/js/custom.js";
-
-
-import Header from './Component/Header/Header';
-import Alert from "./Component/Alert/Alert";
-import Section1 from "./Component/Section/Section1/Section1.jsx";
-import Section2 from "./Component/Section/Section2/Section2.jsx";
-import Section3 from "./Component/Section/Section3/Section3.jsx";
-import Section4 from "./Component/Section/Section4/Section4.jsx";
-import Section5 from "./Component/Section/Section5/Section5.jsx";
-import Section6 from "./Component/Section/Section6/Section6.jsx";
-import Footer from "./Component/Footer/Footer.jsx";
-
-
+import { useState } from "react";
+import "./App.css";
+import "../src/assets/css/bootstrap.css";
+import "../src/assets/css/styles.css";
+import Header from "./components/Header/Header";
+import Alert from "./components/Alert/Alert";
+import Section1 from "./components/Section1/Section1";
+import Section2 from "./components/Section2/Section";
+import Section3 from "./components/Section3/Section3";
+import Section4 from "./components/Section4/Section4";
+import Section5 from "./components/Section5/Section5";
+import Footer from "./components/Footer/Footer";
+import Section6 from "./components/Section6/Section6";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <>
@@ -37,4 +30,4 @@ function App() {
   );
 }
 
-export default App
+export default App;
